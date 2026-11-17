@@ -29,14 +29,3 @@ primaryColor = "#12239E"
 baseFontSize = 25
 baseFontWeight = 1500
 
-[server]
-port = 8508
-address = "127.0.0.1"
-baseUrlPath = "club"
-headless = true
-enableCORS = false
-enableXsrfProtection = false
-enableWebsocketCompression = false
-
-[browser]
-gatherUsageStats = false
