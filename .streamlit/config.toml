@@ -1,0 +1,41 @@
+[theme]
+primaryColor = "#12239E"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#ffffff"
+textColor = "rgba(1, 1, 1, 0.67)"
+
+# --- AGREGADO: Color de fondo específico para los headers del DataFrame ---
+dataframeHeaderBackgroundColor = "#ffffff"
+font = "Segoe UI"
+headingFont = "Segoe UI"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+
+# Nota: borderColor define las líneas/bordes de la tabla.
+# Si quieres quitar las líneas naranjas de la tabla, cámbialo a #E0E0E0 o elimina la línea.
+borderColor = "#FF5100"
+showWidgetBorder = true
+linkColor = "#12239E"
+chartCategoricalColors = ["#FF5100", "#12239E", "#FFB000", "#00A651"]
+
+[theme.sidebar]
+backgroundColor = "#12239E"
+textColor = "rgba(0, 0, 0, 0.8)"
+primaryColor = "#FF5100"
+baseFontSize = 25
+baseFontWeight = 1500
+
+[server]
+port = 8508
+address = "127.0.0.1"
+baseUrlPath = "club"
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+enableWebsocketCompression = false
+
+[browser]
+gatherUsageStats = false

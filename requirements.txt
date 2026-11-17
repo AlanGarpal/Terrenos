@@ -1,0 +1,15 @@
+streamlit
+pandas
+pillow
+streamlit
+langchain
+langchain-openai
+pandas
+polars
+numpy
+seaborn 
+matplotlib
+polars
+xgboost>=2.0
+scikit-learn
+streamlit_echarts
