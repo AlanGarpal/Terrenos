@@ -1,11 +1,11 @@
 [theme]
 primaryColor = "#12239E"
 backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#ffffff"
-textColor = "rgba(1, 1, 1, 0.67)"
+secondaryBackgroundColor = "#FFFFF"
+textColor = "rgba(0, 0, 0, 0.67)"
 
 # --- AGREGADO: Color de fondo específico para los headers del DataFrame ---
-dataframeHeaderBackgroundColor = "#ffffff"
+dataframeHeaderBackgroundColor = "#FFEDD5"
 font = "Segoe UI"
 headingFont = "Segoe UI"
 baseFontSize = 16
@@ -16,7 +16,14 @@ buttonRadius = "0.5rem"
 
 # Nota: borderColor define las líneas/bordes de la tabla.
 # Si quieres quitar las líneas naranjas de la tabla, cámbialo a #E0E0E0 o elimina la línea.
-borderColor = "#FF5100"
+borderColor = "#FF5100" 
 showWidgetBorder = true
 linkColor = "#12239E"
 chartCategoricalColors = ["#FF5100", "#12239E", "#FFB000", "#00A651"]
+
+[theme.sidebar]
+backgroundColor = "#03860e"
+textColor = "rgba(0, 0, 0, 0.8)"
+primaryColor = "#12239E"
+baseFontSize = 25
+baseFontWeight = 1500
